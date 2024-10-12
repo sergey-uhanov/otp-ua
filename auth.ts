@@ -64,15 +64,15 @@ export const {
       if (account!.provider === 'google' || account!.provider === 'github') {
         // Пример логики для связывания аккаунтов
         const existingUser = await db.user.findUnique({
-          where: { email: user.email },
+          where: { email: user.email! },
         });
 
         if (existingUser) {
           const existingAccount = await db.account.findUnique({
             where: {
               provider_providerAccountId: {
-                provider: account.provider,
-                providerAccountId: account.providerAccountId,
+                provider: account!.provider,
+                providerAccountId: account!.providerAccountId,
               },
             },
           });
@@ -81,8 +81,8 @@ export const {
             await db.account.create({
               data: {
                 userId: existingUser.id,
-                provider: account.provider,
-                providerAccountId: account.providerAccountId,
+                provider: account!.provider,
+                providerAccountId: account!.providerAccountId,
                 type: 'oauth', // Задайте тип аккаунта, например, 'oauth'
                 // Другие необходимые поля
               },

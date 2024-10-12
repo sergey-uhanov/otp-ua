@@ -12,7 +12,7 @@ import { UploadApiResponse } from 'cloudinary';
 const optionsTypeAnswer = [
   { type: 'single', name: 'Одна правильна відповідь' },
   { type: 'multiple', name: 'Кілька правильних відповідей' },
-  { type: 'open', name: 'Відкрите питання' },
+  // { type: 'open', name: 'Відкрите питання' },
 ];
 const variant = {
   initial: { opacity: 0, y: 50 },

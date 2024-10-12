@@ -14,7 +14,7 @@
     "plugin:jest-dom/recommended",
     "plugin:cypress/recommended"
   ],
-  "parser": "@typescript-eslint/parser",
+  // "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -22,7 +22,7 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["react", "@typescript-eslint"],
+  "plugins": ["react"],
   "rules": {
     "react/react-in-jsx-scope": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",

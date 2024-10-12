@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  color: var(--primary-color);
+}
+.logo {
+}
+.nav_menu {
+  display: flex;
+  gap: 20px;
+}
+.userImage {
+  border-radius: 50%;
+}
+.auth_buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}

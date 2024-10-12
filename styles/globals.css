@@ -1,0 +1,78 @@
+/* Reset style----------------------------------------------------- */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+html,
+body {
+  height: 100%;
+  line-height: 1;
+}
+textarea,
+button,
+input {
+  font-weight: inherit;
+  font-size: inherit;
+  color: inherit;
+  font-family: inherit;
+}
+button {
+  cursor: pointer;
+  background-color: inherit;
+}
+/* ------------------------------------------------------------------------- */
+:root {
+  /* font variables */
+  --primary-color: #1b1b27;
+  --primary-color-title: #2d2d35;
+  --title-font-size: 3rem;
+  --sub-title-font-size: 2rem;
+  --secondary-title-font-size: 1.8rem;
+  /* comon variables */
+  --primary-background-color: #f3f3f3;
+  --secondary-background-color: #d2ddf9;
+  --alt-background-color: #1b54da;
+  --border-color: #7ea0ef;
+  --border-radius: 6px;
+  --box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  /* button variables */
+  --background-color-fill-link: #1b54da;
+  --color-fill-link: #fff;
+  --background-color-button: transparent;
+  --color-link-button: #1b54da;
+  --border-color-button: #1b54da;
+  --border-radius-button: 6px;
+}
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  background-color: var(--primary-background-color);
+  font-family: var(--primary-font-family);
+  font-size: 16px;
+  color: var(--primary-color);
+  overflow-x: hidden;
+}

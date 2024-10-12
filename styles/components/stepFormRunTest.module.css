@@ -1,0 +1,42 @@
+.wrapper {
+  min-height: 80vh;
+}
+.person_input_block {
+  max-width: 500px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  padding: 20px 40px;
+  margin: 0 auto;
+}
+.input_item {
+  display: flex;
+  justify-content: space-between;
+}
+.input_item input {
+  margin-left: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  padding: 5px 10px;
+}
+.input_item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.error_message {
+  color: red;
+}
+.itemStepFormRunTest {
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+.itemStepFormRunTest span {
+  color: rgb(255, 131, 15);
+  font-size: var(--title-font-size);
+}
+.btn_next_step {
+  background-color: var(--background-color-fill-link);
+  color: var(--color-fill-link);
+  padding: 10px 20px;
+  border-radius: var(--border-radius);
+  margin-top: 20px;
+}

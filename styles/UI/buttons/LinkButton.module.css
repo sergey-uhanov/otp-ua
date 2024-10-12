@@ -1,0 +1,11 @@
+.active {
+  color: #0080ff;
+  border-bottom: 3px solid #0080ff;
+}
+.link_button {
+  transition: all 0.3s ease-in-out;
+}
+.link_button:hover {
+  color: #80bfff;
+  transition: all 0.3s ease-in-out;
+}

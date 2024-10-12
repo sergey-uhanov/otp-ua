@@ -1,0 +1,38 @@
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.title span {
+  font-weight: bold;
+}
+.container p:not(:last-child) {
+  margin-bottom: 10px;
+}
+.container p span {
+  font-weight: bold;
+}
+.correctUserAnswer {
+  background-color: #acffa8;
+}
+.wrongUserAnswer {
+  background-color: #ffa8aa;
+}
+.allAnswer {
+  display: flex;
+  gap: 10px;
+}
+.correctAnswer {
+  color: green;
+}
+.wrongAnswer {
+  color: red;
+}
+.questionCard {
+  padding: 20px 20px;
+}
+.questionCard:not(:last-child) {
+  margin-bottom: 20px;
+}
+.answer:after {
+  content: ',';
+}

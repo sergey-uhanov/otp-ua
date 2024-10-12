@@ -1,0 +1,31 @@
+@keyframes scaleUp {
+  0% {
+    transform: scale(0.9); /* Начальное состояние - уменьшенный блок */
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1); /* Конечное состояние - нормальный размер */
+    opacity: 1;
+  }
+}
+.header {
+  animation: scaleUp 0.6s ease-in-out;
+  animation-fill-mode: forwards;
+}
+.container {
+  display: flex;
+  justify-content: flex-start;
+  animation: scaleUp 0.6s ease-in-out;
+  animation-fill-mode: forwards;
+}
+.input_answer {
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  outline: none;
+  padding: 5px;
+  height: 40px;
+  width: 400px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  box-shadow: var(--box-shadow);
+}

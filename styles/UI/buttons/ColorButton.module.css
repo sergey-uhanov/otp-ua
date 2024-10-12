@@ -1,0 +1,8 @@
+.color_button {
+  color: var(--color-fill-link);
+  background: var(--background-color-fill-link);
+  border-radius: var(--border-radius-button);
+  padding: 7px 10px 5px 10px;
+  cursor: pointer;
+  height: 30px;
+}

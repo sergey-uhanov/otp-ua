@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FirstScreen Snapshot Test matches the snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="firstScreen"
+  >
+    <div
+      class="banner"
+    >
+      <div
+        style="display: flex; flex-direction: column;"
+      >
+        <img
+          alt="Mountains"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          sizes="100vw"
+          src="/_next/image?url=%2Fimg.jpg&w=3840&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=640&q=75 640w, /_next/image?url=%2Fimg.jpg&w=750&q=75 750w, /_next/image?url=%2Fimg.jpg&w=828&q=75 828w, /_next/image?url=%2Fimg.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimg.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimg.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimg.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimg.jpg&w=3840&q=75 3840w"
+          style="color: transparent; width: 100%; height: 630px; min-width: 300px; max-width: 360px; object-fit: cover;"
+          width="40"
+        />
+      </div>
+    </div>
+    <div
+      class="firstScreen_text_bloc"
+    >
+      <h1
+        class="firstScreen_title"
+      >
+        Створіть свої ідеальні опитування та тести
+      </h1>
+      <p
+        class="firstScreen_content"
+      >
+        Наш інтуїтивний конструктор опитань та тестів допоможе вам створювати ефективні інструменти для збору цінної інформації та взаємодії з вашою аудиторією.
+      </p>
+      <div
+        class="firstScreen_btn_container"
+      >
+        <a
+          class="button"
+          href="/create-page"
+        >
+          Створити опитування
+        </a>
+        <a
+          class="button"
+          href="/"
+        >
+          Преглянути приклади
+        </a>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

@@ -1,0 +1,12 @@
+.button {
+  padding: 10px 20px;
+  border-radius: var(--border-radius-button);
+  background-color: var(--background-color-fill-link);
+  color: var(--color-fill-link);
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+.button:hover {
+  background-color: #b1bfcb;
+  color: #242d35;
+}

@@ -1,0 +1,85 @@
+.copyLinkButton {
+  border: 1px solid #3c3c3c;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  padding: 2px 5px;
+  font-size: 12px;
+}
+.copied {
+  background-color: green;
+}
+.container {
+  background: #456;
+  --color: #a5a5b0;
+  --size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  font-size: var(--size);
+  user-select: none;
+  fill: var(--color);
+}
+
+.container .clipboard {
+  position: absolute;
+  animation: keyframes-fill 0.5s;
+}
+
+.container .clipboard_check {
+  position: absolute;
+  display: none;
+  animation: keyframes-fill 0.5s;
+}
+
+/* ------ On check event ------ */
+.container input:checked ~ .clipboard {
+  display: none;
+}
+
+.container input:checked ~ .clipboard_check {
+  display: block;
+}
+
+/* ------ Hide the default checkbox ------ */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* ------ Animation ------ */
+@keyframes keyframes-fill {
+  0% {
+    transform: rotate(0deg) scale(0);
+    opacity: 0;
+  }
+
+  50% {
+    transform: rotate(-10deg) scale(1.2);
+  }
+}
+.wrapper_checkbox {
+  max-width: 400px;
+  margin-bottom: 30px;
+}
+.isCopied {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  font-size: 16px;
+  color: white;
+  background-color: var(--alt-background-color);
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.notCopied {
+  display: none;
+}
+.link {
+  padding: 10px 20px;
+}

@@ -1,0 +1,73 @@
+.listQuestions {
+  min-height: 100vh;
+}
+
+.itemTest {
+  border: 1px solid var(--border-color);
+  margin-bottom: 20px;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  background-color: #f0f0f0;
+  cursor: grab;
+  position: relative;
+  padding: 10px;
+}
+.itemTestActive {
+  border: 3px solid #0206bd;
+  transform: scale(1.05);
+}
+.listQuestions {
+  max-width: 500px;
+  width: 100%;
+  margin-left: auto;
+}
+.answer_options {
+  color: #808080;
+}
+.correct_answer {
+  color: green;
+}
+.titleItem {
+  font-size: 0.7rem;
+  margin-bottom: 10px;
+}
+.question {
+  margin-bottom: 10px;
+}
+.editBtn {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+}
+.removeBtn {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+}
+.add_question_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.title {
+  font-size: var(--sub-title-font-size);
+  text-align: center;
+  margin-bottom: 40px;
+}
+.preview_container {
+  margin-top: 10px;
+  display: flex;
+
+  position: relative;
+}
+
+.preview_image {
+  width: 80px; /* Установите желаемый размер превью */
+  height: 80px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}

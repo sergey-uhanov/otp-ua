@@ -1,0 +1,42 @@
+.container {
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.result_card {
+  position: relative;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 1.5rem;
+  width: 100%;
+  background-color: #ccdaff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-bottom: 7px solid #2563eb;
+}
+.result_card:hover {
+  /* filter: brightness(1.1); hover:brightness-110 */
+  transform: translateX(-1px) scale(1.01); /* hover:-translate-y-[1px] */
+}
+.result_card p span {
+  font-weight: bold;
+}
+.result_card:active {
+  border-bottom-width: 2px; /* active:border-b-[2px] */
+  filter: brightness(0.9); /* active:brightness-90 */
+  transform: translateY(2px); /* active:translate-y-[2px] */
+}
+.testItemDelete {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}

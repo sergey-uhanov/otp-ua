@@ -1,0 +1,8 @@
+.error__title{
+	font-size: 2rem;
+	font-weight: bold;
+	min-height: 80vh;
+	text-align: center;
+	margin-top: 10vh;
+	color: #333333;
+}

@@ -70,7 +70,7 @@ const CopyLinkComponent = ({ id }: CopyLinkComponentProps) => {
       <div className={style.wrapper_checkbox}>
         <Checkbox link={link} copyToClipboard={copyToClipboard} />
       </div>
-      <Link id="test-run-link" className={style.link} href={link}>
+      <Link id="test-run-link" className={style.link} href={`/test-run/${id}`}>
         Пройти тест
       </Link>
     </div>
